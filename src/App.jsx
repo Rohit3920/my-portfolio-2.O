@@ -7,6 +7,7 @@ import Profile from './component/Profile'
 // import { ProfileIcon } from './component/ProfileIcon'
 import ProfileData from "./api/profileData.json"
 import Skill from './pages/Skill'
+import ContactUs from './pages/ContactUs'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Profile  ProfileData={ProfileData}/>
       <About />
       <Skill />
+      <ContactUs />
       <Footer />
     </>
   )

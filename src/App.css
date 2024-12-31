@@ -67,3 +67,43 @@ div.footer{
   filter: drop-shadow( 0 0 2px rgb(0, 0, 0));
   background: rgba(211, 211, 211, 0.263);
 }
+
+
+/* contact us section style  */
+#contact{
+  background-image: url(templete-11.jpg);
+  background-position: center;
+  background-size: cover;
+  background-clip: content-box;
+}
+
+#contact input:focus, #contact textarea:focus {
+  border: none;
+  outline: none;
+}
+
+#contact .head {
+  border: 1px solid white;
+  border-radius: 30px;
+  background-color: #4d4d4d77;
+}
+
+#project .head h1 {
+  background: -webkit-linear-gradient(180deg, #00a6ff, #ff9500);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#contact i {
+  font-size: 50px;
+  padding: 10px;
+}
+
+.hover-shadow {
+  background-color: rgba(255, 255, 255, 0.486);
+  border-radius: 50px;
+}
+
+.hover-shadow:hover {
+  box-shadow: 1px 1px 4px 1px #1dbbffd3;
+}
