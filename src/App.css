@@ -46,3 +46,24 @@ div.footer{
   line-height: 35px;
 }
 
+
+/* Skill section style  */
+
+#skills {
+  background-image: url("https://www.shutterstock.com/image-illustration/growth-arrow-progress-success-business-600nw-1997712335.jpg");
+  background-size: cover;
+  width: 100%;
+  padding: 40px;
+}
+
+#skills ul li {
+  list-style: none;
+  line-height: 55px;
+  filter: drop-shadow( 0 0 4px rgb(158, 158, 158));
+}
+
+#skills ul li:hover {
+  border-radius: 30px;
+  filter: drop-shadow( 0 0 2px rgb(0, 0, 0));
+  background: rgba(211, 211, 211, 0.263);
+}

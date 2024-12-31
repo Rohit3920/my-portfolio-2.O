@@ -9,6 +9,11 @@ html, body {
   scroll-behavior: smooth;
 }
 
+section{
+  width: 100vw;
+  height: 100vh;
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;

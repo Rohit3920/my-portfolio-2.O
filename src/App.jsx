@@ -6,6 +6,7 @@ import Footer from './component/Footer'
 import Profile from './component/Profile'
 // import { ProfileIcon } from './component/ProfileIcon'
 import ProfileData from "./api/profileData.json"
+import Skill from './pages/Skill'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       {/* <h1>My portfolio 2.O <i className="fa-solid fa-briefcase"></i></h1> */}
       <Profile  ProfileData={ProfileData}/>
       <About />
+      <Skill />
       <Footer />
     </>
   )

@@ -4,11 +4,11 @@ function Footer() {
     return (
             <footer className="footer text-center bg-body-tertiary">
                 <div className="container pt-4">
-                    <section className="mb-2">
+                    <div className="mb-2">
                         {
                             ProfileData.SocialMedia.map((icon)=> <SocialMediaIcon key={icon.name} icon = {icon}/> )
                         }
-                    </section>
+                    </div>
                 </div>
 
                 <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
