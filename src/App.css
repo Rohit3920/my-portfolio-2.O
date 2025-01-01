@@ -1,8 +1,8 @@
-h1{
+h1 {
   text-align: center;
 }
 
-div.footer{
+div.footer {
   width: 100vw;
   position: fixed;
   bottom: 0;
@@ -14,11 +14,11 @@ div.footer{
   position: relative;
 }
 
-#sectionHeader h2{
+#sectionHeader h2 {
   font-weight: 1200;
 }
 
-#Header-underline{
+#Header-underline {
   content: "";
   width: 8%;
   height: 0.3rem;
@@ -59,18 +59,18 @@ div.footer{
 #skills ul li {
   list-style: none;
   line-height: 55px;
-  filter: drop-shadow( 0 0 4px rgb(158, 158, 158));
+  filter: drop-shadow(0 0 4px rgb(158, 158, 158));
 }
 
 #skills ul li:hover {
   border-radius: 30px;
-  filter: drop-shadow( 0 0 2px rgb(0, 0, 0));
+  filter: drop-shadow(0 0 2px rgb(0, 0, 0));
   background: rgba(211, 211, 211, 0.263);
 }
 
 
 /* contact us section style  */
-#contact{
+#contact {
   background-image: url(templete-11.jpg);
   background-position: center;
   background-size: cover;
@@ -107,3 +107,113 @@ div.footer{
 .hover-shadow:hover {
   box-shadow: 1px 1px 4px 1px #1dbbffd3;
 }
+
+#projectSection #project {
+  border: 1px solid black;
+  border-radius: 1rem;
+  background-color: lightcyan;
+}
+
+#projectSection #project:hover{
+  box-shadow: 0 0 3px gray, 0 0 6px gray;
+}
+
+#projectSection #project h5 small{
+  font-size: 0.7rem;
+}
+#projectSection #project h5 {
+  width: 100%;
+  min-height: 2rem;
+  padding: 0.6rem 0;
+  border-radius: 1rem 1rem 0 0;
+  background-color: lightgray;
+  border-bottom: 2px dashed #00a6ff;
+}
+
+#projectSection #project marquee {
+  margin: 0.2rem 3rem;
+}
+
+#projectSection #project button {
+  width: 10rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  border: 1px solid black;
+  border-radius: 2rem;
+  outline: none;
+  font-weight: 700;
+  font-size: 0.8rem;
+  transition: all 0.6s;
+  /* border: none; */
+}
+
+
+
+#projectSection #project button#gitRepoBtn:hover {
+  background-color: var(--cyan);
+  border: 1px solid white;
+  color: white;
+}
+
+#projectSection #project button#visitSiteBtn:hover {
+  border: 1px solid white;
+  background-color: var(--warning);
+  color: white;
+}
+
+#projectSkill{
+  color: white;
+  filter: drop-shadow(0 0 2px white);
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+#projectSkill:hover{
+  opacity: 1;
+}
+
+.React {
+  background-image: linear-gradient(135deg, #1fbeef, #50D6FF);
+}
+
+.Vite {
+  background-image: linear-gradient(45deg, #62B1FF, #FFB817);
+}
+
+.HTML {
+  background-image: linear-gradient(135deg, #E3552B, #F06A31);
+}
+
+.CSS {
+  background-image: linear-gradient(45deg, #1B75B8, #3AADDD);
+}
+
+.JavaScript {
+  background-image: linear-gradient(135deg, #D0AB13, #FCD430);
+}
+
+.Bootstrap {
+  background-image: linear-gradient(45deg, #7149A2, #3E9CE9);
+}
+
+.jQuery {
+  background-image: linear-gradient(135deg, #FCD430, #0D92FF);
+}
+
+.Json {
+  background-image: linear-gradient(45deg, #9B7CAB, #EAEAE1);
+}
+
+
+
+
+/* const sklClr = {
+  "React": ["#50D6FF", "#1FBEEF"],
+  "Vite": ["#62B1FF", "#FFB817"],
+  "HTML": ["#E3552B", "#F06A31"],
+  "CSS": ["#1B75B8", "#3AADDD"],
+  "JavaScript": ["#D0AB13", "#FCD430"],
+  "Bootstrap": ["#7149A2", "#3E9CE9"],
+  "jQuery": ["#FCD430", "#0D92FF"],
+  "Json": ["#9B7CAB", "#EAEAE1"]
+} */

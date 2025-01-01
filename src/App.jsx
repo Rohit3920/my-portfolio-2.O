@@ -8,6 +8,7 @@ import Profile from './component/Profile'
 import ProfileData from "./api/profileData.json"
 import Skill from './pages/Skill'
 import ContactUs from './pages/ContactUs'
+import Project from './pages/Project'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Profile  ProfileData={ProfileData}/>
       <About />
       <Skill />
+      <Project />
       <ContactUs />
       <Footer />
     </>
