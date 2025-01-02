@@ -10,6 +10,7 @@ import ContactUs from './pages/ContactUs'
 import Project from './pages/Project'
 import Education from './pages/Education'
 import IntershipAndCourse from './pages/IntershipAndCourse'
+import { Socialicons } from './component/social_icon/Social_Icon'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <>
       <Navbar />
       <Profile ProfileData={data} />
+      <Socialicons  socialprofils={data.socialprofils}/>
       <About />
       <Education education={data.education} />
       <IntershipAndCourse internshipAndCourse={data.internshipAndCourse}/>

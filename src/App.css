@@ -114,13 +114,14 @@ div.footer {
   background-color: lightcyan;
 }
 
-#projectSection #project:hover{
+#projectSection #project:hover {
   box-shadow: 0 0 3px gray, 0 0 6px gray;
 }
 
-#projectSection #project h5 small{
+#projectSection #project h5 small {
   font-size: 0.7rem;
 }
+
 #projectSection #project h5 {
   width: 100%;
   min-height: 2rem;
@@ -161,14 +162,14 @@ div.footer {
   color: white;
 }
 
-#projectSkill{
+#projectSkill {
   color: white;
   filter: drop-shadow(0 0 2px white);
   font-size: 0.8rem;
   opacity: 0.7;
 }
 
-#projectSkill:hover{
+#projectSkill:hover {
   opacity: 1;
 }
 
@@ -226,7 +227,7 @@ div.footer {
 
 /* IternshipContent */
 
-.internship{
+.internship {
   background-color: #ffdc7a6b;
 }
 
@@ -329,27 +330,36 @@ div.footer {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 576px) {
+  #educationContent img {
+    width: 4rem;
+    height: 8rem;
+    border-radius: 50%;
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
+
   #InternshipContent {
-      padding: 1em 0;
-      width: 80%;
-      margin: 0 auto;
-      background-color: rgba(255, 255, 255, 0.692);
-      display: grid;
-      grid-template-columns: auto;
+    padding: 1em 0;
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.692);
+    display: grid;
+    grid-template-columns: auto;
   }
 
   .InternLogo {
-      width: 80%;
-      margin : auto;
+    width: 80%;
+    margin: auto;
   }
 
   #InternshipContent #duration {
-      width: 10em;
-      text-align: center;
-      margin-left: 0px;
-      display: inline;
+    width: 10em;
+    text-align: center;
+    margin-left: 0px;
+    display: inline;
   }
 
 }

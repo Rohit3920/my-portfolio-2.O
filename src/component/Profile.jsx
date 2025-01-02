@@ -23,7 +23,7 @@ function Profile({ProfileData}) {
                             <p>This is my official portfolio website to showes all details and work experience for <br />
                                 <span className="text-danger" style={{fontWeight :"800", fontSize : "1.2rem"}}>WEB DEVELOPMENT</span>
                             </p>
-                            <ul id="social-media">
+                            <ul id="social-media" style={{visibility :"hidden", display:"none"}}>
                             {ProfileData.SocialMedia.map((social) =>
                             <ProfileIcon key={social.name} data = {social}  />
                             )}
