@@ -3,9 +3,6 @@ import { Typewriters } from "./Typewriters"
 import { ProfileIcon } from "./ProfileIcon"
 function Profile({ProfileData}) {
 
-    // const {SocialMedia} = props.ProfileData.ProfileData.SocialMedia
-    console.log(ProfileData.SocialMedia)
-
     return (
         <section id="profile">
             <div className="container">

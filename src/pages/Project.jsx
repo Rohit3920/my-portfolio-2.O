@@ -1,8 +1,7 @@
 import { SectionHeader } from "../component/SectionHeader"
-import profileData from "../api/profileData.json"
 import { ProjectContent } from "../component/ProjectContent"
 
-function Project() {
+function Project({myProjects}) {
     return (
         <section id="projectSection">
             <div className="container">
@@ -12,7 +11,7 @@ function Project() {
                     </div>
 
                     {
-                        profileData.myProjects.map((pjt, ind) => <ProjectContent key={ind} data={pjt} />)
+                        myProjects.map((pjt, ind) => <ProjectContent key={ind} data={pjt} />)
                     }
                 </div>
             </div>

@@ -204,16 +204,20 @@ div.footer {
   background-image: linear-gradient(45deg, #9B7CAB, #EAEAE1);
 }
 
+/* education section style  */
+#educationContent img {
+  width: 4rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+#educationContent img:hover {
+  padding: -4px;
+  border: 4px solid #007bff;
+}
 
 
-
-/* const sklClr = {
-  "React": ["#50D6FF", "#1FBEEF"],
-  "Vite": ["#62B1FF", "#FFB817"],
-  "HTML": ["#E3552B", "#F06A31"],
-  "CSS": ["#1B75B8", "#3AADDD"],
-  "JavaScript": ["#D0AB13", "#FCD430"],
-  "Bootstrap": ["#7149A2", "#3E9CE9"],
-  "jQuery": ["#FCD430", "#0D92FF"],
-  "Json": ["#9B7CAB", "#EAEAE1"]
-} */
+/* Education Content */
+#educationContent {
+  background-color: #007bff1f;
+}

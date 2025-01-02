@@ -1,12 +1,11 @@
 import { SocialMediaIcon } from "./socialMediaIcon"
-import ProfileData from "../api/profileData.json"
-function Footer() {
+function Footer({SocialMedia}) {
     return (
             <footer className="footer text-center bg-body-tertiary">
                 <div className="container pt-4">
                     <div className="mb-2">
                         {
-                            ProfileData.SocialMedia.map((icon)=> <SocialMediaIcon key={icon.name} icon = {icon}/> )
+                            SocialMedia.map((icon)=> <SocialMediaIcon key={icon.name} icon = {icon}/> )
                         }
                     </div>
                 </div>

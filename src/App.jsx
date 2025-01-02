@@ -4,24 +4,24 @@ import Navbar from './component/Navbar'
 import About from './pages/About'
 import Footer from './component/Footer'
 import Profile from './component/Profile'
-// import { ProfileIcon } from './component/ProfileIcon'
-import ProfileData from "./api/profileData.json"
+import data from "./api/Data.json"
 import Skill from './pages/Skill'
 import ContactUs from './pages/ContactUs'
 import Project from './pages/Project'
+import Education from './pages/Education'
 
 function App() {
 
   return (
     <>
       <Navbar />
-      {/* <h1>My portfolio 2.O <i className="fa-solid fa-briefcase"></i></h1> */}
-      <Profile  ProfileData={ProfileData}/>
+      <Profile ProfileData={data} />
       <About />
+      <Education education={data.education} />
       <Skill />
-      <Project />
+      <Project myProjects={data.myProjects} />
       <ContactUs />
-      <Footer />
+      <Footer SocialMedia={data.SocialMedia} />
     </>
   )
 }
