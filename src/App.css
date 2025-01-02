@@ -221,3 +221,135 @@ div.footer {
 #educationContent {
   background-color: #007bff1f;
 }
+
+
+
+/* IternshipContent */
+
+.internship{
+  background-color: #ffdc7a6b;
+}
+
+#InternshipContent {
+  padding: 1em 0;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.692);
+  display: grid;
+  grid-template-columns: 5em auto;
+}
+
+.InternLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.InternLogo img {
+  border-radius: 5%;
+}
+
+.InternContent {
+  width: 90%;
+
+}
+
+#InternshipContent h2 {
+  font-weight: 300;
+}
+
+#InternshipContent h4 {
+  font-weight: 300;
+}
+
+#InternshipContent #duration {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60%;
+}
+
+#InternshipContent h6 {
+  font-weight: 300;
+}
+
+#InternshipContent sub {
+  padding-top: 0.8em;
+  display: inline;
+  font-weight: 500;
+}
+
+/* IternshipContent */
+#InternshipContent {
+  padding: 1em 0;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.692);
+  display: grid;
+  grid-template-columns: 5em auto;
+}
+
+.InternLogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5em;
+}
+
+.InternLogo img {
+  border-radius: 5%;
+}
+
+.InternContent {
+  width: 90%;
+
+}
+
+#InternshipContent h3 {
+  font-weight: 300;
+}
+
+#InternshipContent h5 {
+  font-weight: 300;
+}
+
+#InternshipContent #duration {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60%;
+}
+
+#InternshipContent h6 {
+  font-weight: 300;
+}
+
+#InternshipContent sub {
+  padding-top: 0.8em;
+  display: inline;
+  font-weight: 500;
+}
+
+
+@media only screen and (max-width: 768px) {
+  #InternshipContent {
+      padding: 1em 0;
+      width: 80%;
+      margin: 0 auto;
+      background-color: rgba(255, 255, 255, 0.692);
+      display: grid;
+      grid-template-columns: auto;
+  }
+
+  .InternLogo {
+      width: 80%;
+      margin : auto;
+  }
+
+  #InternshipContent #duration {
+      width: 10em;
+      text-align: center;
+      margin-left: 0px;
+      display: inline;
+  }
+
+}

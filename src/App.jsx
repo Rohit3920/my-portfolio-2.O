@@ -9,6 +9,7 @@ import Skill from './pages/Skill'
 import ContactUs from './pages/ContactUs'
 import Project from './pages/Project'
 import Education from './pages/Education'
+import IntershipAndCourse from './pages/IntershipAndCourse'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Profile ProfileData={data} />
       <About />
       <Education education={data.education} />
+      <IntershipAndCourse internshipAndCourse={data.internshipAndCourse}/>
       <Skill />
       <Project myProjects={data.myProjects} />
       <ContactUs />
