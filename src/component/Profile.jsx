@@ -21,15 +21,15 @@ function Profile({ProfileData}) {
                             <h2 className="pt-0 pt-lg-2 heading">Rohit Nittawadekar</h2>
                             <h4>And I`m a <Typewriters id="typed-text" className="text-primary" /></h4>
                             <p>This is my official portfolio website to showes all details and work experience for <br />
-                                <span className="text-warning">WEB DEVELOPMENT</span>
+                                <span className="text-danger" style={{fontWeight :"800", fontSize : "1.2rem"}}>WEB DEVELOPMENT</span>
                             </p>
                             <ul id="social-media">
                             {ProfileData.SocialMedia.map((social) =>
                             <ProfileIcon key={social.name} data = {social}  />
                             )}
                             </ul>
-                            <a id="downloadCV" className="btn ml-5 mt-2 btn-danger mb-3 text-light border border-light"
-                                href="./Assets/Download-Document/ROHIT-Resume23.pdf" download="Rohit Resume"
+                            <a id="downloadCV" className="btn ml-5 mt-2 btn-primary mb-3"
+                                href="ROHIT-Resume.pdf" download="Rohit-Resume"
                                 style={{ fontWeight: "600" }}>Download CV <i className="fa fa-download pl-1"></i></a>
                         </div>
                     </div>
