@@ -4,7 +4,7 @@ function About() {
         <section id="about" className="mt-5 pt-3">
             <div className="container">
                 <div className="row">
-                    <SectionHeader sName ={"About"} color = {"var(--dark)"} bgColor = {"gray"} uderlineWidth={"4rem"} />
+                    <SectionHeader sName ={"About"} color = {"var(--text-color)"} bgColor = {"light"} uderlineWidth={"4rem"} />
                     <div className="col-12">
                         <ul className="content">
                             <li>I`m in the IT industry since 2019.</li>

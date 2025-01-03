@@ -1,6 +1,7 @@
 body {
-    background: radial-gradient(#fefefe, #c7dbd4);
+    background: var(--gradient-body) ;
     background-size: cover;
+    color: rgb(49, 49, 49);
 }
 
 .wrapper {
@@ -14,7 +15,7 @@ body {
 }
 
 #darkLighttext {
-    color: white;
+    color: var(--text-color-3);
 }
 
 .wrapper .box {
@@ -25,10 +26,9 @@ body {
     border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
     background: url(MyPhoto.png);
     background-color: #e1c13e;
-    /* background: radial-gradient(#fefefe, #e1c13e); */
     background-size: cover;
     background-position: center;
-    box-shadow: 0px 2px 15px 1px rgba(255, 237, 237, 0.95);
+    box-shadow: 0px 2px 15px 1px var(--overlay-color);
     animation: blob 7s linear infinite;
 }
 
@@ -103,8 +103,8 @@ body {
 }
 
 .social-icon:hover i, .blink a i {
-    background-color: rgb(0, 136, 255);
-    box-shadow: 0 0 10px 2px rgb(0, 136, 255);
+    background-color: var(--main-bg-color);
+    box-shadow: 0 0 10px 2px var(--main-bg-color);
 }
 
 #downloadCV {

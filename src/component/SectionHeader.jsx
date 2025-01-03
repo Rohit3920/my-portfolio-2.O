@@ -9,6 +9,5 @@ export function SectionHeader(props) {
     )
 }
 
-
 // we have use and send this props like :
 // <SectionHeader sName ={"About"} color = {"dark"} bgColor = {"gray"} uderlineWidth={"4rem"} />

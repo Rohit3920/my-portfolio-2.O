@@ -14,7 +14,7 @@
     margin: 0;
 }
 .socialProfileText{
-    filter: drop-shadow(0 0 2px white);
+    filter: drop-shadow(0 0 1px white);
 }
 
 .stick_follow_icon svg {
@@ -63,8 +63,8 @@ FaLinkedin:hover {
 }
 
 .stick_follow_icon p:after {
-    top: 9px;
-    right: -48px;
+    top: 18px;
+    right: -58px;
     width: 40px;
     height: 1px;
     content: "";

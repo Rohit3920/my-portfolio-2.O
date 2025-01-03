@@ -16,7 +16,7 @@ function Profile({ProfileData}) {
                         </div>
                     </div>
                     <div className="col-12 col-lg-6 order-lg-1">
-                        <div id="profile-content" className="position-relative text-dark text-left pl-5">
+                        <div id="profile-content" className="position-relative text-left pl-5">
                             <p className="text-left mt-0 pt-0 ml-4 m-0 mt-sm-5 pt-sm-4 pt-0">Hello, It`s Me</p>
                             <h2 className="pt-0 pt-lg-2 heading">Rohit Nittawadekar</h2>
                             <h4>And I`m a <Typewriters id="typed-text" className="text-primary" /></h4>

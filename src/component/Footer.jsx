@@ -10,7 +10,7 @@ function Footer({SocialMedia}) {
                     </div>
                 </div>
 
-                <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)" }}>
+                <div className="text-center p-3" style={{ backgroundColor: "rgba(0, 0, 0, 0.05)", color : "var(--text-color-2)"}}>
                     ©My-Portfolio
                     <a className="text-body" href="https://mdbootstrap.com/"> rohitnittawadekar07@gmail.com</a>
                 </div>

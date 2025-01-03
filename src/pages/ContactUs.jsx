@@ -6,7 +6,6 @@ function ContactUs() {
             <div className="container pb-5">
                 <div className="row text-center">
                     <div className="head col-12 my-lg-5 m-sm-3 m-0 my-2">
-                        {/* <h1>Contact Us</h1> */}
                         <SectionHeader sName={"Contact Us"} color={"white"} bgColor={"gray"} uderlineWidth={"6rem"} />
                     </div>
 

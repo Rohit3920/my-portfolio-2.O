@@ -9,7 +9,7 @@ const Education = ({education}) => {
                 <div className='row'>
                     <div className='col-12'>
                         <div className="col-12 my-4">
-                            <SectionHeader sName={"Education"} color={"light"} bgColor={"gray"} uderlineWidth={"8rem"} />
+                            <SectionHeader sName={"Education"} color={" var(--text-color-)"} bgColor={"gray"} uderlineWidth={"8rem"} />
                         </div>
                     </div>
                     <div className='col-12 mb-5'>

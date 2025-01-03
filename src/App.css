@@ -12,6 +12,7 @@ div.footer {
 /* section header style for all sections */
 #sectionHeader {
   position: relative;
+  color: var(--text-color);
 }
 
 #sectionHeader h2 {
@@ -24,7 +25,7 @@ div.footer {
   height: 0.3rem;
   border-radius: 0.2rem;
   margin: 0 auto;
-  background-color: rgb(0, 81, 255);
+  background-color: var(--underline );
 }
 
 /* About section style  */
@@ -32,7 +33,7 @@ div.footer {
 #about {
   min-height: 550px;
   padding-bottom: 50px;
-  background-color: rgb(2, 154, 255);
+  background-color: var(--main-bg-color);
   color: white;
   background-size: cover;
   font-size: 20px;
@@ -59,13 +60,13 @@ div.footer {
 #skills ul li {
   list-style: none;
   line-height: 55px;
-  filter: drop-shadow(0 0 4px rgb(158, 158, 158));
+  filter: drop-shadow(0 0 4px var(--secondary));
 }
 
 #skills ul li:hover {
   border-radius: 30px;
-  filter: drop-shadow(0 0 2px rgb(0, 0, 0));
-  background: rgba(211, 211, 211, 0.263);
+  filter: drop-shadow(0 0 2px var(--secondary-color));
+  background-color: var(--overlay-color);
 }
 
 
@@ -83,7 +84,7 @@ div.footer {
 }
 
 #contact .head {
-  border: 1px solid white;
+  border: 1px solid var(--bg-color);
   border-radius: 30px;
   background-color: #4d4d4d77;
 }
@@ -105,17 +106,17 @@ div.footer {
 }
 
 .hover-shadow:hover {
-  box-shadow: 1px 1px 4px 1px #1dbbffd3;
+  box-shadow: 1px 1px 4px 1px var(--main-bg-color);
 }
 
 #projectSection #project {
   border: 1px solid black;
   border-radius: 1rem;
-  background-color: lightcyan;
+  background-color: var(--lightcyan);
 }
 
 #projectSection #project:hover {
-  box-shadow: 0 0 3px gray, 0 0 6px gray;
+  box-shadow: 0 0 3px var(--gray), 0 0 6px var(--gray);
 }
 
 #projectSection #project h5 small {
@@ -127,25 +128,28 @@ div.footer {
   min-height: 2rem;
   padding: 0.6rem 0;
   border-radius: 1rem 1rem 0 0;
-  background-color: lightgray;
-  border-bottom: 2px dashed #00a6ff;
+  color: var(--text-color);
+  background-color: var( --int-bg-color);
+  border-bottom: 2px dashed var( --main-bg-color);
 }
 
 #projectSection #project marquee {
   margin: 0.2rem 3rem;
+  color: var(--text-color);
 }
 
 #projectSection #project button {
   width: 10rem;
   padding: 0.5rem 1rem;
   margin: 1rem;
-  border: 1px solid black;
+  color: var(--text-color);
+  border: 1px solid var(--bg-color);
+  background-color: var(--bg-color);
   border-radius: 2rem;
   outline: none;
   font-weight: 700;
   font-size: 0.8rem;
   transition: all 0.6s;
-  /* border: none; */
 }
 
 
@@ -214,21 +218,20 @@ div.footer {
 
 #educationContent img:hover {
   padding: -4px;
-  border: 4px solid #007bff;
+  border: 4px solid var(--main-bg-color);
 }
 
 
 /* Education Content */
 #educationContent {
-  background-color: #007bff1f;
+  background-color:var(--edu-bg-color);
+  color: var(--text-color);
 }
-
-
 
 /* IternshipContent */
 
 .internship {
-  background-color: #ffdc7a6b;
+  background-color:var(--int-bg-color);
 }
 
 #InternshipContent {
@@ -285,7 +288,9 @@ div.footer {
   padding: 1em 0;
   width: 80%;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.692);
+  /* background-color: rgba(255, 255, 255, 0.692); */
+  background-color: var(--lightcyan);
+  color: var(--text-color);
   display: grid;
   grid-template-columns: 5em auto;
 }
