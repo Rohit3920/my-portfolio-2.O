@@ -1,6 +1,6 @@
 import "./Profile.css"
-import { Typewriters } from "./Typewriters"
-import { ProfileIcon } from "./ProfileIcon"
+import { Typewriters } from "../../component/Typewriters"
+import { ProfileIcon } from "../../component/ProfileIcon"
 function Profile({ProfileData}) {
 
     return (

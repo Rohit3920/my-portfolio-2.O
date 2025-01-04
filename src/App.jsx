@@ -3,7 +3,7 @@ import './App.css'
 import Navbar from './component/Navbar'
 import About from './pages/About'
 import Footer from './component/Footer'
-import Profile from './component/Profile'
+import Profile from './pages/profile/Profile'
 import data from "./api/Data.json"
 import Skill from './pages/Skill'
 import ContactUs from './pages/ContactUs'

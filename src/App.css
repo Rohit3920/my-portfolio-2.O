@@ -350,7 +350,7 @@ div.footer {
     padding: 1em 0;
     width: 80%;
     margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.692);
+    background-color: rgba(255, 255, 255, 0.292);
     display: grid;
     grid-template-columns: auto;
   }

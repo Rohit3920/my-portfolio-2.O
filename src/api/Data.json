@@ -1,0 +1,237 @@
+{
+  "myName": "Rohit Nittawadekar",
+  "Email": "rohitnittawadkear07@gmail.com",
+  "mobile": "8767100736",
+  "Birthdate": "07-11-2000",
+  "Gender": "Male",
+
+  "socialprofils" : {
+    "github": "https://github.com/Rohit3920",
+    "facebook": "https://www.facebook.com/rohit.nittawadekar",
+    "linkedin": "https://www.linkedin.com/in/rohit-nittawadekar-922984265/",
+    "twitter": "https://instagram.com/mh09.rohit.96k?igshid=ZDdkNTZiNTM="
+},
+
+  "SocialMedia": [
+    {
+      "name": "Linkedin",
+      "url": "https://www.linkedin.com/in/rohit-nittawadekar-922984265/",
+      "iconCls": "fa-linkedin"
+    },
+    {
+      "name": "Github",
+      "url": "https://github.com/Rohit3920",
+      "iconCls": " fa-github"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://www.facebook.com/rohit.nittawadekar",
+      "iconCls": "fa-brands fa-facebook"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://instagram.com/mh09.rohit.96k?igshid=ZDdkNTZiNTM=",
+      "iconCls": "fa-instagram"
+    }
+  ],
+
+
+  "education" : [
+    {
+        "college": "Dr. A. D. Shinde College of Engineering, Gadhinglaj",
+        "website": "https://www.adshindecoe.edu.in/",
+        "feild": "Computer Science and Engineering",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtMAPZUi9vtraACx0RWGqqAmKlKSkuhEJGw&s",
+        "board": "Shivaji university",
+        "percentage": "",
+        "passingOfYear":"",
+        "status": "Parsing"
+    },
+    {
+        "college": "Institute Of Civil & Rural Engineering, Gargoti",
+        "website": "https://www.collegedekho.com/colleges/icre-gargoti",
+        "feild": "Computer Science Diploma",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1DjHBoyFQEsmL6S-MB-Q8lpa5JKHPDt1YSRTogF_fJcXc3xZO13xhjvnM96lFxKss&usqp=CAU",
+        "board": "MSBTE, Pune",
+        "percentage": 84.17,
+        "passingOfYear": 2021,
+        "status": "Passed"
+    },
+    {
+        "college": "Vyankatrao Jr. College, Ajara-Kop",
+        "website": "https://www.justdial.com/Kolhapur/Vyankatrao-Highschool-Junior-College-Ajara/0231PX231-X231-170925005903-Z7Z6_BZDET",
+        "std": "12th",
+        "feild": "Science",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSItqkbZUXv_3w6-x_uwfJtXIPopZNT6y5LdxCLxxfIyc9bhX2tZgU6kXlTgQbzAXIUvyw&usqp=CAU",
+        "board": "HSC, Pune",
+        "percentage": 56.15,
+        "passingOfYear": 2019,
+        "status": "Passed"
+    },
+    {
+        "college": "Ajara High-school, Ajara",
+        "website": "https://www.justdial.com/Kolhapur/Ajara-High-School-Ajara/0231PX231-X231-180816205446-I7S5_BZDET",
+        "std": "10th",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9r4eUhvKdyO_x3SJM8R974Zc7AMgwegNRlA&s",
+        "board": "SSC, Pune",
+        "percentage": 76.00,
+        "passingOfYear": 2017,
+        "status": "Passed"
+    }
+],
+
+"internshipAndCourse" : [
+  {
+      "company": "Iternship Studio",
+      "training": "Course & Itenship",
+      "course": "Web Design",
+      "startDate": "May, 2023",
+      "logoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_nQsCa_W6tVGRBv9ve-Iwh2JXL918vhVGfg&s",
+      "endDate": "Jun, 2023",
+      "duration": "6 weeks"
+  },
+  {
+      "company": "Iternshala Training",
+      "training": "Trainee",
+      "logoURL": "https://images.yourstory.com/cs/images/companies/925769318s-1585754058054.png?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff",
+      "course": "Internship & Job Preparation",
+      "startDate": "May, 2023",
+      "endDate": "JUn, 2023",
+      "duration": "4 Weeks"
+  },
+  {
+      "company": "Iternshala Training",
+      "training": "Trainee",
+      "logoURL": "https://images.yourstory.com/cs/images/companies/925769318s-1585754058054.png?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff",
+      "course": "React Js",
+      "startDate": "Apr, 2023",
+      "endDate": "May, 2023",
+      "duration": "6 weeks"
+  },
+  {
+      "company": "Phoenix InfoTech, Gadhinglaj",
+      "training": "Course & Trainee",
+      "logoURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWrS_G0DjaJVmOUxd_ibZ8uEbHgjJ4DJ1eTQ&s",
+      "course": "Web Development",
+      "startDate": "jan, 2022",
+      "endDate": "Sept, 2022",
+      "duration": "8 Months"
+  },
+  {
+      "company": "Internshala Traninig",
+      "training": "Trainee",
+      "logoURL": "https://images.yourstory.com/cs/images/companies/925769318s-1585754058054.png?fm=auto&ar=1:1&mode=fill&fill=solid&fill-color=fff",
+      "course": "Android App Development",
+      "startDate": "Jun, 2020",
+      "endDate": "Jul, 2020",
+      "duration": "6 Weeks"
+  }
+],
+
+  "mySkill": [
+    {
+      "skill": [
+        { "s": "C", "status": "intermidiate" },
+        { "s": "C++", "status": "intermidiate" },
+        { "s": "JAVA", "status": "intermidiate" },
+        { "s": "Python", "status": "Beginner" },
+        { "s": "C#", "status": "Learning", "statusStyleCls": "text-danger" }
+      ]
+    },
+    {
+      "skill": [
+        { "s": "HTML", "status": "Advance" },
+        { "s": "CSS", "status": "Advance" },
+        { "s": "JavaScript", "status": "Advance" },
+        { "s": "Bootstrap", "status": "Advance" },
+        { "s": "jQuery", "status": "Advance" },
+        { "s": "React", "status": "Advance" }
+      ]
+    },
+    {
+      "skill": [
+        { "s": "Git & Github", "status": "Version Control" },
+        { "s": "Node Js", "status": "Backend" },
+        { "s": "Express Js", "status": "node Library" },
+        { "s": "Mongo DB", "status": "dateabase" },
+        { "s": "My SQL", "status": "database" },
+        { "s": "MS Access", "status": "database" }
+      ]
+    }
+  ],
+
+  "myProjects": [
+    {
+      "name": "my-Portfolio 2.O",
+      "discription": "This is my personal portfolio and show my all about myself.",
+      "gitRepo": "https://github.com/Rohit3920/my-portfolio-2.O",
+      "responsible": true,
+      "url": "",
+      "useSkill": ["React", "Vite"]
+    },
+    {
+      "name": "E-commerce Shopping Cart",
+      "discription": "I have create this project for MERN stack development skills",
+      "gitRepo": "https://github.com/Rohit3920/Ecommerce-React-prjt-ShoppingApp",
+      "responsible": true,
+      "url": "",
+      "useSkill": ["React", "Json Data"]
+    },
+    {
+      "name": "NetFlix Clone",
+      "discription": "This netflix clone are build by bootstrap 4, and bootstrap learning project",
+      "gitRepo": "https://github.com/Rohit3920/Netflix-clone",
+      "responsible": true,
+      "url": "",
+      "useSkill": ["HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "name": "To Do List",
+      "discription": "This is my frist javascript project build by simple frontend technologies",
+      "gitRepo": "https://github.com/Rohit3920/To-Do-List-in-Javascript",
+      "responsible": true,
+      "url": "",
+      "useSkill": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "Tic-Tac-Toe in JavaScript",
+      "discription": "this tic-tac-toe game build by HTML, CSS and JavaScript, best practice for web development to create this game.",
+      "gitRepo": "https://github.com/Rohit3920/Tic-Toc-Toe-JavaScript",
+      "responsible": false,
+      "url": "",
+      "useSkill": ["HTML", "CSS", "JavaScript"]
+    },
+    {
+      "name": "my-Portfolio",
+      "discription": "I have try to build my portfolio, And I am frist represent me to this portfolio.",
+      "gitRepo": "https://github.com/Rohit3920/myPortfolioWebsite",
+      "responsible": true,
+      "url": "",
+      "useSkill": ["HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "name": "E-commerce (shopping Site)",
+      "discription": "This project only clone of the simple website",
+      "gitRepo": "https://github.com/Rohit3920/ShoppingSiteDesign",
+      "responsible": true,
+      "url": "",
+      "useSkill": ["HTML", "CSS", "Bootstrap"]
+    },
+    {
+      "name": "Git Command Helper",
+      "discription": "this simple project for Using jQuery, I have write git command and this description",
+      "gitRepo": "https://github.com/Rohit3920/CMD--Git-GitHub--Jquery",
+      "responsible": false,
+      "url": "",
+      "useSkill": ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap"]
+    },
+    {
+      "name": "Tic-Tac-Toe Game",
+      "discription": "this project are build by react tainning with 'internshala' ",
+      "gitRepo": "https://github.com/Rohit3920/tic-tac-toe-in-React",
+      "responsible": true,
+      "url": "",
+      "useSkill": ["React", "Vite"]
+    }
+  ]
+}
