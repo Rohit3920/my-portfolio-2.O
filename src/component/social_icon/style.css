@@ -50,6 +50,10 @@
     filter: drop-shadow(0 0 5px rgb(255, 0, 0));
 }
 
+.FaHackerrank:hover {
+    filter: drop-shadow(0 0 5px #00E361);
+}
+
 .FaGithub:hover {
     filter: drop-shadow(0 0 5px rgb(37, 37, 37));
 }

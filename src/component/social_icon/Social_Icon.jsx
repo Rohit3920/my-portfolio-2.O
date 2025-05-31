@@ -5,16 +5,24 @@ import {
     FaInstagram,
     FaFacebookF,
     FaLinkedin,
+    FaHackerrank
 } from "react-icons/fa";
 
 export const Socialicons = ({ socialprofils }) => {
     return (
         <div className="stick_follow_icon">
             <ul>
-                {socialprofils.twitter && (
+                {socialprofils.Instagram && (
                     <li>
-                        <a className="FaInstagram" href={socialprofils.twitter} target="_blank">
+                        <a className="FaInstagram" href={socialprofils.Instagram} target="_blank">
                             <FaInstagram />
+                        </a>
+                    </li>
+                )}
+                {socialprofils.Hackerrank && (
+                    <li>
+                        <a className="FaHackerrank" href={socialprofils.Hackerrank} target="_blank">
+                            <FaHackerrank />
                         </a>
                     </li>
                 )}

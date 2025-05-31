@@ -9,7 +9,8 @@
     "github": "https://github.com/Rohit3920",
     "facebook": "https://www.facebook.com/rohit.nittawadekar",
     "linkedin": "https://www.linkedin.com/in/rohit-nittawadekar-922984265/",
-    "twitter": "https://instagram.com/mh09.rohit.96k?igshid=ZDdkNTZiNTM="
+    "Instagram": "https://instagram.com/mh09.rohit.96k?igshid=ZDdkNTZiNTM=",
+    "Hackerrank" : "https://www.hackerrank.com/profile/rohitnittawadek1"
 },
 
   "SocialMedia": [
@@ -32,6 +33,11 @@
       "name": "Instagram",
       "url": "https://instagram.com/mh09.rohit.96k?igshid=ZDdkNTZiNTM=",
       "iconCls": "fa-instagram"
+    },
+    {
+      "name": "Hackerrank",
+      "url": "https://www.hackerrank.com/profile/rohitnittawadek1",
+      "iconCls": "fa-brands fa-hackerrank"
     }
   ],
 
