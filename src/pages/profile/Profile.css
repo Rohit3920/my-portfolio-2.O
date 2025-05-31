@@ -24,7 +24,7 @@ body {
     margin-top: 100px;
     border: 2.5px solid #e1c13e;
     border-radius: 42% 56% 72% 28% / 42% 42% 56% 48%;
-    background: url(MyPhoto.png);
+    background: url(../../assets/MyPhoto.png);
     background-color: #e1c13e;
     background-size: cover;
     background-position: center;
