@@ -1,5 +1,5 @@
 {
-  "homepage": "https://Rohit3920.github.io/my-portfolio2O",
+  "homepage": "https://Rohit3920.github.io/my-portfolio-2.O/",
   "name": "my-portfolio2-o",
   "private": true,
   "version": "0.0.0",
@@ -9,8 +9,8 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy": "npm run build && gh-pages -d build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run build && gh-pages -d dist",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.3.1",
