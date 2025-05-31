@@ -11,6 +11,7 @@ import Project from './pages/Project'
 import Education from './pages/Education'
 import IntershipAndCourse from './pages/IntershipAndCourse'
 import { Socialicons } from './component/social_icon/Social_Icon'
+// import ViewProjectInfo from './view-component/ViewProjectInfo'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <>
       <Navbar />
       <Profile ProfileData={data} />
+      {/* <ViewProjectInfo /> */}
       <Socialicons  socialprofils={data.socialprofils}/>
       <About />
       <Education education={data.education} />
