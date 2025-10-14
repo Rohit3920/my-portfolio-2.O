@@ -1,4 +1,4 @@
-import { SectionHeader } from "../component/SectionHeader"
+import { SectionHeader } from "../../component/SectionHeader"
 
 function Skill() {
     return (

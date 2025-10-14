@@ -134,36 +134,25 @@
   }
 ],
 
-  "mySkill": [
-    {
-      "skill": [
-        { "s": "C", "status": "intermidiate" },
-        { "s": "C++", "status": "intermidiate" },
-        { "s": "JAVA", "status": "intermidiate" },
-        { "s": "Python", "status": "Beginner" },
-        { "s": "C#", "status": "Learning", "statusStyleCls": "text-danger" }
-      ]
-    },
-    {
-      "skill": [
-        { "s": "HTML", "status": "Advance" },
-        { "s": "CSS", "status": "Advance" },
-        { "s": "JavaScript", "status": "Advance" },
-        { "s": "Bootstrap", "status": "Advance" },
-        { "s": "jQuery", "status": "Advance" },
-        { "s": "React", "status": "Advance" }
-      ]
-    },
-    {
-      "skill": [
-        { "s": "Git & Github", "status": "Version Control" },
-        { "s": "Node Js", "status": "Backend" },
-        { "s": "Express Js", "status": "node Library" },
-        { "s": "Mongo DB", "status": "dateabase" },
-        { "s": "My SQL", "status": "database" },
-        { "s": "MS Access", "status": "database" }
-      ]
-    }
+"mySkill": [
+        { "courseName": "C", "status": "Intermediate" },
+        { "courseName": "C++", "status": "Intermediate" },
+        { "courseName": "JAVA", "status": "Intermediate" },
+        { "courseName": "Python", "status": "Beginner" },
+        { "courseName": "C#", "status": "Learning" },
+        { "courseName": "HTML", "status": "Advance" },
+        { "courseName": "CSS", "status": "Advance" },
+        { "courseName": "JavaScript", "status": "Advance" },
+        { "courseName": "Bootstrap", "status": "Advance" },
+        { "courseName": "jQuery", "status": "Advance" },
+        { "courseName": "React", "status": "Advance" },
+        { "courseName": "Git", "status": "Version Control" },
+        { "courseName": "Github", "status": "Version Control" },
+        { "courseName": "Node Js", "status": "Backend" },
+        { "courseName": "Express Js", "status": "node Library" },
+        { "courseName": "Mongo DB", "status": "dateabase" },
+        { "courseName": "My SQL", "status": "database" },
+        { "courseName": "MS Access", "status": "database" }
   ],
 
   "myProjects": [
