@@ -123,8 +123,3 @@ body {
     opacity: 1;
     background-color: transparent;
 }
-
-#downloadCV:active {
-    display: none;
-    visibility: hidden;
-}

@@ -1,7 +1,15 @@
 import "./Profile.css"
 import { Typewriters } from "../../component/Typewriters"
 import { ProfileIcon } from "../../component/ProfileIcon"
-function Profile({ProfileData}) {
+function Profile({ ProfileData }) {
+
+    const handleDownload = () => {
+        var pdfUrl = "../../Documents/rohitResume.pdf";
+        const link = document.createElement("a");
+        link.href = pdfUrl;
+        link.download = "Rohit-Resume.pdf";
+        link.click();
+    };
 
     return (
         <section id="profile">
@@ -21,16 +29,16 @@ function Profile({ProfileData}) {
                             <h2 className="pt-0 pt-lg-2 heading">Rohit Nittawadekar</h2>
                             <h4>And I`m a <Typewriters id="typed-text" className="text-primary" /></h4>
                             <p>This is my official portfolio website to showes all details and work experience for <br />
-                                <span className="text-danger" style={{fontWeight :"800", fontSize : "1.2rem"}}>WEB DEVELOPMENT</span>
+                                <span className="text-danger" style={{ fontWeight: "800", fontSize: "1.2rem" }}>WEB DEVELOPMENT</span>
                             </p>
-                            <ul id="social-media" style={{visibility :"hidden", display:"none"}}>
-                            {ProfileData.SocialMedia.map((social) =>
-                            <ProfileIcon key={social.name} data = {social}  />
-                            )}
+                            <ul id="social-media" style={{ visibility: "hidden", display: "none" }}>
+                                {ProfileData.SocialMedia.map((social) =>
+                                    <ProfileIcon key={social.name} data={social} />
+                                )}
                             </ul>
-                            <a id="downloadCV" className="btn ml-5 mt-2 btn-primary mb-3"
-                                href="ROHIT-Resume.pdf" download="Rohit-Resume"
-                                style={{ fontWeight: "600" }}>Download CV <i className="fa fa-download pl-1"></i></a>
+                            <button id="downloadCV" className="btn ml-5 mt-2 btn-primary mb-3"
+                                onClick={handleDownload}
+                                style={{ fontWeight: "600" }}>Download CV <i className="fa fa-download pl-1"></i></button>
                         </div>
                     </div>
                 </div>
