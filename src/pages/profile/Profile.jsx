@@ -4,7 +4,7 @@ import { ProfileIcon } from "../../component/ProfileIcon"
 function Profile({ ProfileData }) {
 
     const handleDownload = () => {
-        var pdfUrl = "../../Documents/rohitResume.pdf";
+        var pdfUrl = "https://drive.google.com/uc?export=download&id=1Syxjckq6UPkbYyOk52JLkilE0hin3GbC";
         const link = document.createElement("a");
         link.href = pdfUrl;
         link.download = "Rohit-Resume.pdf";
